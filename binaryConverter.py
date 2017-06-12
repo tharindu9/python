@@ -3,19 +3,19 @@ class stack: # create stack class
         self.items=[]
 
 
-    def isEmpty(self):
+    def isEmpty(self):#empty stack
         return self.items==[]
 
-    def pop(self):
+    def pop(self):#return the top index vale
         return self.items.pop()
 
-    def push(self,item):
+    def push(self,item):#inserting to stasck
         return self.items.append(item)
 
-    def peek(self):
+    def peek(self):#show only the top index value
         return self.items[len(self.items)-1]
 
-    def size(self):
+    def size(self):#size of stack
         return len(self.items)
 
 s=stack() #s is a object of stack
