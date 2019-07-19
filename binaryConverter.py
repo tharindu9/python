@@ -20,7 +20,7 @@ class stack: # create stack class
 
 s=stack() #s is a object of stack
 s1=stack() # object of stack
-n=int(raw_input("enter num\n")) # take the number what want to convert
+n=int(input("enter num\n")) # take the number what want to convert
 while n>0:
     if n%2==0: #check weather  n modul by 2
         s.push(0) 
