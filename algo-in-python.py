@@ -1,6 +1,4 @@
 #fibonachi
-
-
 n0 = 0;
 n1 =1;
 ans =0;
