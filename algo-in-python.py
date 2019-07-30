@@ -1,4 +1,4 @@
-//fibonachi
+#fibonachi
 
 
 n0 = 0;
