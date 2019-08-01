@@ -12,11 +12,11 @@ class color:
 
 
 for i in range(1,9):
-    print("*", end=" ")
+    print(color.BLUE +"*", end=" ")
     if(i==3):
         print("*","*")
         for j in range(1,5):
-            print(" " , " ","*")
+            print(color.BLUE +" " , " ","*"+color.END)
 
 print()
 
@@ -32,7 +32,7 @@ for x in range(1,6):
     if(x==4):
         print(color.RED +"  *","  ","*  " +color.END)
     if(x==5):
-        print(color.RED +"   ","*" ,"  " +color.END)
+        print(color.RED +"   ","*" ,"  "+color.END)
 
 print()
 
@@ -40,16 +40,14 @@ for k in range(1,6):
     if(k==1):
         for l in range(1,4):
             if(i!=3):
-                print("*"," "*3,"*")
+                print(color.GREEN +"*"," "*3,"*")
             else:
                 print("*",end="")
     elif(k==2 or k==5):
-        print(" ",end=" ")
+        print(" ",end=" " )
 
     else:
-        print("*", end=" ")
+        print(color.GREEN +"*", end=" " +color.END)
 
-
-#sys.stdout.write('\x1b[1;34m' + "tharindu rukshan" + '\x1b[0m' )
 
 
